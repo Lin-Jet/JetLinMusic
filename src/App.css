@@ -428,9 +428,17 @@
     margin-left: -1rem;
   }
 
-
+  .footer{
+    background: #880808;
+    height:10rem;
+  }
   .footer-items{
-    float: right;
+    display: block;
+    margin-right: 3rem;
+    align-content: space-around;
+  }
+  .footer-items > li{
+    padding-bottom: 1rem;
   }
 }
 
