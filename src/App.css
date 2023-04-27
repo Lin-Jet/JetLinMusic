@@ -440,5 +440,11 @@
   .footer-items > li{
     padding-bottom: 1rem;
   }
+  /* .blood6 .blood7 .blood8 .blood9 .blood10 .blood11 .blood12 .blood13 .blood14 .blood15 .blood16 .blood17 .blood18 .blood19 .blood20 .blood21 .blood22 .blood23 .blood24 .blood25 {
+    display: none;
+  } */
+  #mobileblood{
+    display: none;
+  }
 }
 

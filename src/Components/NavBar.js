@@ -14,8 +14,8 @@ function NavBar() {
             
             <h1 className="nav-logo">Jet Lin Music</h1>
             <div className="blood">
-            <p className="blood1">🩸</p><p className="blood2">🩸</p><p className="blood3">🩸</p><p className="blood4">🩸</p><p className="blood5">🩸</p><p className="blood6">🩸</p><p className="blood7">🩸</p><p className="blood8">🩸</p><p className="blood9">🩸</p><p className="blood10">🩸</p><p className="blood11">🩸</p><p className="blood12">🩸</p><p className="blood13">🩸</p><p className="blood14">🩸</p><p className="blood15">🩸</p><p className="blood16">🩸</p>
-            <p className="blood17">🩸</p><p className="blood18">🩸</p><p className="blood19">🩸</p><p className="blood20">🩸</p><p className="blood21">🩸</p><p className="blood22">🩸</p><p className="blood23">🩸</p><p className="blood24">🩸</p><p className="blood25">🩸</p>
+            <p className="blood1">🩸</p><p className="blood2">🩸</p><p className="blood3">🩸</p><p className="blood4">🩸</p><p className="blood5">🩸</p><p className="blood6" id="mobileblood">🩸</p><p className="blood7" id="mobileblood">🩸</p><p className="blood8" id="mobileblood">🩸</p><p className="blood9" id="mobileblood">🩸</p><p className="blood10" id="mobileblood">🩸</p><p className="blood11" id="mobileblood">🩸</p><p className="blood12" id="mobileblood">🩸</p><p className="blood13" id="mobileblood">🩸</p><p className="blood14" id="mobileblood">🩸</p><p className="blood15" id="mobileblood">🩸</p><p className="blood16" id="mobileblood">🩸</p>
+            <p className="blood17" id="mobileblood">🩸</p><p className="blood18" id="mobileblood">🩸</p><p className="blood19" id="mobileblood">🩸</p><p className="blood20" id="mobileblood">🩸</p><p className="blood21" id="mobileblood">🩸</p><p className="blood22" id="mobileblood">🩸</p><p className="blood23" id="mobileblood">🩸</p><p className="blood24" id="mobileblood">🩸</p><p className="blood25" id="mobileblood">🩸</p>
             </div>
             <ul className="nav-items">
                 <li><button onClick={() => window.location.hash = "#albums"}>Albums</button></li>
