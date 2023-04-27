@@ -1,6 +1,10 @@
 import React from "react";
 
 function MV(props) {
+
+
+
+
     return(
         <div className="mv">
 
@@ -10,7 +14,7 @@ function MV(props) {
                     <iframe className="mv-temp" width="560" height="315" src={props.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </li>
             </ul> */}
-            <h1 className="mv-title" id="newest">New Release!</h1>
+            <h1 className="mv-title" id="newest">Newest Release</h1>
             <ul>
                 <li>
                 <iframe className="mv-vid" width="560" height="315" src="https://www.youtube.com/embed/W-ePbpVgsJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

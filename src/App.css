@@ -37,13 +37,17 @@
   }
 }
 
+button{
+  font-family: 'Castoro Titling';
+}
+
 .nav{
   display: flex;
   align-content:baseline;
-  background: linear-gradient(90deg, rgb(251, 177, 177), 20%, #700c0c);
+  background: linear-gradient(90deg, #f4d4a1, 40%, #f0ca8c);
 }
 .nav-logo{
-  color: #880808;
+  color: #ed3022;
   padding-left: 3rem;
 }
 .nav-items{
@@ -61,18 +65,66 @@
 .nav-items > li > button {
   background: none;
   border: none;
-  color: white;
+  color: #880808;
   font-size: 1.2em;
   transition-duration: 0.4s;
 }
 .nav-items > li > button:hover{
   transition-duration: 0.4s;
-  color: gold;
+  color: #ed3022;
   transform: scale(110%);
-  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #880808);
   cursor: pointer;
 }
-
+.genre-dropdown{
+  position: relative;
+  display:inline-block;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #880808;
+  font-size: 1.2em;
+  z-index: 3;
+}
+.genre-dropdown-content{
+  transition-duration: 0.4s;
+  display: none;
+  position: absolute;
+  z-index:1;
+  right:0.03rem;
+  padding-top: 0.5rem;
+}
+.genre-dropdown-content > li{
+  position: relative;
+  transition-duration: 0.4s;
+  border: none;
+  background: none;
+  padding-top: 0.5rem;
+}
+.genre-dropdown-content > li > button {
+  background: none;
+  border: none;
+  color: #ed3022;
+  font-size: 1.2em;
+  transition-duration: 0.4s;
+}
+.genre-dropdown-content > li > button:hover{
+  transition-duration: 0.4s;
+  color: #ed3022;
+  transform: scale(110%);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #ed3022);
+  cursor: pointer;
+}
+.genre-dropdown:hover .genre-dropdown-content{
+  transition-duration: 0.4s;
+  display: block;
+}
+.genre-dropdown:hover{
+  cursor: pointer;
+  color: #ed3022;
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #ed3022);
+  transform: scale(110%);
+  transition-duration: 0.4s;
+}
 
 .blood{
   position: absolute;
@@ -216,7 +268,7 @@
 }
 
 .main{
-  background: linear-gradient(120deg, white, red);
+  background: linear-gradient(120deg, #be100c, #fb8876);
   padding-top: 1rem;
   margin:0rem;
   max-height: 98vh;
@@ -231,29 +283,39 @@
   margin-top: -1rem;
   opacity: 90%;
 }
+
+.main-text{
+  display: block;
+  position: absolute;
+  top: 12rem;
+  left: 10%;
+  border: #be100c 0.5rem solid;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 18rem;
+  background: rgb(244,212,161, 50%);
+}
 .main-title{
   z-index: 3;
   color: #880808;
-  font-size: 8em;
-  position: absolute;
-  top: 10rem;
-  left: 3rem;
+  margin-top: 2rem;
+  font-size: 6em;
   animation: blinker 8s ease-in-out 0.3s infinite;
+  margin-bottom: 0rem;
 }
 .main-subtitle{
   z-index: 3;
   color: #880808;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 700;
-  position: absolute;
-  top: 23rem;
-  left: 3rem;
+  text-align: left;
+  width: 30rem;
   animation: blinker 8s ease-in-out 0.6s infinite;
 }
 
 @keyframes blinker {
   0%{
-    opacity: 30%;
+    opacity: 50%;
     filter: brightness(100%);
   }
   50%{
@@ -261,7 +323,7 @@
     filter: brightness(150%);
   }
   100%{
-    opacity: 30%;
+    opacity: 50%;
     filter: brightness(100%);
   }
 }
@@ -275,9 +337,10 @@
 } */
 
 .mv{
-  color: white;
+  color: black;
   margin-top: 3rem;
 }
+
 .mv > ul{
   list-style-type: none;
 }
@@ -286,64 +349,16 @@
 }
 .mv-vid{
   margin: 3rem;
-  border: white solid 1rem;
+  border: #be100c solid 1rem;
   box-shadow: 1rem 1rem 3rem #880808;
 }
 
-.genre-dropdown{
-  position: relative;
-  display:inline-block;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  color: white;
-  font-size: 1.2em;
-  z-index: 3;
-}
-.genre-dropdown-content{
-  transition-duration: 0.4s;
-  display: none;
-  position: absolute;
-  z-index:1;
-  right:0.03rem;
-  padding-top: 0.5rem;
-}
-.genre-dropdown-content > li{
-  position: relative;
-  transition-duration: 0.4s;
-  border: none;
-  background: none;
-  padding-top: 0.5rem;
-}
-.genre-dropdown-content > li > button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.2em;
-  transition-duration: 0.4s;
-}
-.genre-dropdown-content > li > button:hover{
-  transition-duration: 0.4s;
-  color: gold;
-  transform: scale(110%);
-  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
-  cursor: pointer;
-}
-.genre-dropdown:hover .genre-dropdown-content{
-  transition-duration: 0.4s;
-  display: block;
-}
-.genre-dropdown:hover{
-  cursor: pointer;
-  color: gold;
-  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
-  transform: scale(110%);
-  transition-duration: 0.4s;
-}
+
 
 
 .footer{
   padding: 1rem;
-  background: #880808;
+  background: linear-gradient(90deg, #f4d4a1, 40%, #f0ca8c);
   min-height: 3rem;
 }
 
@@ -357,16 +372,16 @@
 .footer-items > li > button {
   background: none;
   border: none;
-  color: white;
+  color: #880808;
   font-size: 1.2em;
   transition-duration: 0.4s;
   padding-right: 3rem;
 }
 .footer-items > li > button:hover{
   transition-duration: 0.4s;
-  color: gold;
+  color: #ed3022;
   transform: scale(110%);
-  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #ed3022);
   cursor: pointer;
 }
 
@@ -385,8 +400,12 @@
     display: block;
     position: relative;
     top: -4rem;
-    margin: auto;
+    float: left;
     margin-bottom: -4rem;
+  }
+  .nav-items{
+    margin-left: -10rem;
+    right: -0.3rem;
   }
   .nav-items > li{
     position: relative;
@@ -406,10 +425,17 @@
     max-height: 100vh;
 
   }
+  .main-text{
+    position: absolute;
+    top: 23%;
+    padding: 0rem;
+    height: 3rem;
+    width: 20rem;
+    left: 5%;
+  }
   .main-title{
     font-size: 2.5em;
-    position: absolute;
-    top: 18%;
+    margin-top: -.1rem;
   }
   .main-subtitle{
     display: none;
@@ -429,7 +455,7 @@
   }
 
   .footer{
-    background: #880808;
+    background: linear-gradient(90deg, #f4d4a1, 40%, #f0ca8c);
     height:10rem;
   }
   .footer-items{
@@ -439,6 +465,9 @@
   }
   .footer-items > li{
     padding-bottom: 1rem;
+  }
+  .footer-items > li > button {
+    color: #ed3022;
   }
   /* .blood6 .blood7 .blood8 .blood9 .blood10 .blood11 .blood12 .blood13 .blood14 .blood15 .blood16 .blood17 .blood18 .blood19 .blood20 .blood21 .blood22 .blood23 .blood24 .blood25 {
     display: none;
