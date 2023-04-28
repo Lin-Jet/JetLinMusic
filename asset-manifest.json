@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JetLinMusic/static/css/main.52cb9789.css",
-    "main.js": "/JetLinMusic/static/js/main.a7e26c0d.js",
+    "main.css": "/JetLinMusic/static/css/main.6a6b99e0.css",
+    "main.js": "/JetLinMusic/static/js/main.3e8527c4.js",
     "static/js/787.408d63e0.chunk.js": "/JetLinMusic/static/js/787.408d63e0.chunk.js",
     "static/media/metalcomp.mp4": "/JetLinMusic/static/media/metalcomp.aedc895f691336251db8.mp4",
     "index.html": "/JetLinMusic/index.html",
-    "main.52cb9789.css.map": "/JetLinMusic/static/css/main.52cb9789.css.map",
-    "main.a7e26c0d.js.map": "/JetLinMusic/static/js/main.a7e26c0d.js.map",
+    "main.6a6b99e0.css.map": "/JetLinMusic/static/css/main.6a6b99e0.css.map",
+    "main.3e8527c4.js.map": "/JetLinMusic/static/js/main.3e8527c4.js.map",
     "787.408d63e0.chunk.js.map": "/JetLinMusic/static/js/787.408d63e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52cb9789.css",
-    "static/js/main.a7e26c0d.js"
+    "static/css/main.6a6b99e0.css",
+    "static/js/main.3e8527c4.js"
   ]
 }
