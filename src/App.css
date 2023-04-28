@@ -376,6 +376,32 @@ button{
 }
 
 
+.breathwork{
+  /* border: red solid 3px; */
+  width: 100vw;
+  position: relative;
+  left: -2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.breathwork > button{
+  position: relative;
+  align-items: center;
+  width: 30rem;
+  height: 8rem;
+  padding:0.5rem;
+  border: white solid 0.5rem;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  transition-duration: 0.8s;
+  color: white;
+  font-size: 2em;
+}
+.breathwork > button:hover{
+  transition-duration: 0.8s;
+  filter: hue-rotate(360deg) saturate(200%);
+  transform: rotate(350deg) scale(110%);
+  cursor: pointer;
+}
 
 
 .footer{
@@ -502,6 +528,13 @@ button{
     height:26rem;
     margin-left: -1rem;
   }
+
+  .breathwork > button{
+    max-width: 100vw;
+  }
+  
+
+
 
   .footer{
     background: linear-gradient(90deg, #f4d4a1, 40%, #f0ca8c);
