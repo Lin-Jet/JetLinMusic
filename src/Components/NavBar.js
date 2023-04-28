@@ -19,10 +19,11 @@ function NavBar() {
             {/* <p className="blood19" id="mobileblood">🩸</p><p className="blood20" id="mobileblood">🩸</p><p className="blood21" id="mobileblood">🩸</p><p className="blood22" id="mobileblood">🩸</p><p className="blood23" id="mobileblood">🩸</p><p className="blood24" id="mobileblood">🩸</p><p className="blood25" id="mobileblood">🩸</p> */}
             </div>
             <ul className="nav-items">
-                <li><button onClick={() => window.location.hash = "#albums"}>Albums</button></li>
                 <li><button onClick={redirectToAlbums}>BandCamp</button></li>
                 <li><button onClick={redirectToMV}>Youtube</button></li>
-
+                <li><button onClick={() => window.location.hash = "#albums"}>Albums</button></li>
+                <li><button onClick={() => window.location.hash = "#live"}>Live</button></li>
+                
                 <li className = "genre-dropdown">
                     <span>Genre</span>
                     <div className="genre-dropdown-content">
