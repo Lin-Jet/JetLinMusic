@@ -12,17 +12,28 @@ body {
   background: linear-gradient(217deg, rgba(244,212,161, .8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(136, 8, 8, .8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(237,48,34, .8), rgba(0,0,255,0) 70.71%);
 
   max-width: 100vw;
+
+}
+/* 
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500rem;
+  height: 500rem;
+  z-index: -1;
+  background: linear-gradient(217deg, rgba(244,212,161, .8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(136, 8, 8, .8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(237,48,34, .8), rgba(0,0,255,0) 70.71%);
+  animation: hue-rotate 10s linear infinite;
 }
 
 @keyframes hue-rotate {
   0%{
-    filter:hue-rotate(0deg);
+    transform: rotate(0deg);
   }
   100%{
-    filter:hue-rotate(360deg);
+    transform: rotate(360deg);
   }
-}
-
+} */
 /* .animated{
   animation: rotate 1s ease-in-out infinite;
 }

@@ -9,6 +9,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <div class="background">
+      <div class="background1"></div>
+      <div class="background2"></div>
+    </div>
+    
     {/* <span><button onClick="" className="party" id="myButton">Party Button</button></span> */}
   </React.StrictMode>
 );
