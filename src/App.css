@@ -295,7 +295,21 @@ button{
   padding: 1rem;
   height: 18rem;
   background: rgb(244,212,161, 50%);
+  /* background: linear-gradient(217deg, rgba(244,212,161, .8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(255, 22, 18, 0.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, #ed3022cc, rgba(0,0,255,0) 70.71%);
+  animation: hue-rotate 10s ease-in-out infinite; */
 }
+/* @keyframes hue-rotate {
+  0%{
+    filter:hue-rotate(-30deg);
+  }
+  50%{
+    filter:hue-rotate(30deg);
+  }
+  100%{
+    filter:hue-rotate(-30deg);
+  }
+} */
+
 .main-title{
   z-index: 3;
   color: #880808;
