@@ -275,7 +275,7 @@ button{
   max-height: 98vh;
 }
 .main-video{
-  filter: blur(8px) hue-rotate(330deg) saturate(200%) grayscale(300%);
+  filter: blur(3px) hue-rotate(330deg) saturate(200%) grayscale(300%);
   min-width: 100vw;
   max-height: 100vh;
   object-fit: cover;
