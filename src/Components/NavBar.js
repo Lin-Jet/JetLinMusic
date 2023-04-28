@@ -6,7 +6,9 @@ function redirectToAlbums() {
 function redirectToMV() {
     window.open("https://www.youtube.com/@jet3714/videos", "_blank");
 }
-
+function redirectToInsta() {
+    window.open("https://www.instagram.com/jet_l__/", "_blank");
+}
 function NavBar() {
 
     return(
@@ -21,10 +23,11 @@ function NavBar() {
             <ul className="nav-items">
                 <li><button onClick={redirectToAlbums}>BandCamp</button></li>
                 <li><button onClick={redirectToMV}>Youtube</button></li>
-                <li><button onClick={() => window.location.hash = "#albums"}>Albums</button></li>
-                <li><button onClick={() => window.location.hash = "#live"}>Live</button></li>
+                <li><button onClick={redirectToInsta}>Instagram</button></li>
+                <li id="mobile-second-row"><button onClick={() => window.location.hash = "#albums"}>Albums</button></li>
+                <li id="mobile-second-row"><button onClick={() => window.location.hash = "#live"}>Live</button></li>
                 
-                <li className = "genre-dropdown">
+                <li className = "genre-dropdown" id="mobile-second-row">
                     <span>Genre</span>
                     <div className="genre-dropdown-content">
                         <li><button onClick={() => window.location.hash = "#metal"}>Metal</button></li>
